@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pack Calculator UI</title>
+</head>
+
+<body>
+    <h1>Pack Calculator</h1>
+    <form action="/calculate" method="get">
+        <label for="quantity">Enter Quantity:</label>
+        <input type="text" id="quantity" name="quantity">
+        <input type="submit" value="Calculate">
+    </form>
+    <br><br>
+    <form action="/addpackage" method="get">
+        <label for="addPackage">Add Package:</label>
+        <input type="text" id="addPackage" name="addPackage" style="margin-left: 10px;">
+        <input type="submit" value="Add">
+    </form>
+    <br><br>
+    <form action="/removepackage" method="get">
+        <label for="remove">Remove Package:</label>
+        <input type="text" id="remove" name="remove" style="margin-left: 10px;">
+        <input type="submit" value="Remove">
+    </form>
+</body>
+
+</html>
